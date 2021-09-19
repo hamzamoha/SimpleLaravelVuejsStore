@@ -13,6 +13,5 @@ const mix = require("laravel-mix");
 mix.disableNotifications();
 mix.js("resources/js/app.js", "public/js")
     .js("node_modules/axios/dist/axios.min.js", "public/js")
-    .js("node_modules/bricks.js/dist/bricks.js", "public/js")
     .vue()
     .sass("resources/sass/app.scss", "public/css");
